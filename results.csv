@@ -1,0 +1,5 @@
+Representation,Classifier,C,Vocabulary,Vectorize time (s),Train time (s),Accuracy,Precision,Recall,F1
+TF-IDF (unigram),Logistic Regression,4.0,57229,6.4,2.48,0.8986,0.8884,0.9126,0.9003
+Avg Word2Vec (100d),Logistic Regression,4.0,60788,50.54,0.51,0.8575,0.8468,0.8741,0.8602
+TF-IDF (unigram),Linear SVM,0.25,57229,6.4,1.01,0.8996,0.8896,0.9132,0.9012
+TF-IDF (uni + bigram),Logistic Regression,16.0,553663,20.29,4.55,0.9189,0.911,0.9293,0.92
